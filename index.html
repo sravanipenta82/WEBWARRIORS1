@@ -1,0 +1,188 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale.0">
+    <title>IRCTC | Ticket Booking</title>
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https//stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpc12Uk9gS9ba0Dl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        
+        html,body{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            position: relative;
+            background-color: white;
+        }
+        #nav-fixed{
+            position: relative;
+            width:100%;
+            border-bottom: 1px solid #f1f1f1;
+            padding:10px 0;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        ul{
+            list-style-type: none;
+            margin:15px;
+            padding=0;
+        }
+        li{
+            display: inline;
+            margin:15px 10px;
+            padding-bottom: 5px;
+            transition: color 0.3s;
+        }
+        li:hover{
+            border-bottom:3px solid blue;
+            color:blue;
+            cursor:pointer;
+        }
+        .active{
+            color:blue;
+            border-bottom: 3px solid blue;
+        }
+
+        #find-trains{
+            margin:30px 0;
+            color:grey;
+        }
+        .search-trains-div{
+            margin:5px 0;
+            padding:5px 0;
+        }
+        .search-trains-div div{
+            position: relative;
+            height:100%;margin:0 5px;
+        }
+       
+    </style>
+    </head>
+    <body>
+         <nav id="nav-fixed">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IRCTC_logo.jpg"
+                   alt="Picture" width="200 px" Height="100 px">
+                    <center>
+                    <ul>
+                        <a href="login irctc.html">LOGIN</a>
+                        <li class="active">Home</li>
+                        <li>PNR status</li>
+                        <li>Track my train</li>
+                        <li>Flights</li>
+                        <li>Buses</li>
+                        <li>Promotions</li>
+                    </ul>
+                    </center>
+                </div>
+            </div>
+         </nav>
+
+         <section id="find-trains">
+            <div class="container">
+                <center><h4>Book Train Tickets</h4>
+                <div class="d-flex search-trains-div">
+                <div style="flex-grow:4">
+                     <input class="form-input" placeholder="From Location"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                     <input class="form-input" placeholder="To Location"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                     <input class="form input" placeholder="Select Date"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                     <button class="search-btn">Search</button></center>
+                </div>
+            </div>
+         </section>
+    </body>
+</html>
+<body>
+<center>
+    <table align="center"width="350" height="200"><br>
+        <tr>
+            <td>
+<div class="mydiv">
+    <div class="container-fluid">
+        <br>
+        <br>
+        <div class="card" style="background-color:rgb(190, 185, 237);width:520px;height:520px">
+        <div class="row"><br>
+        <div class="col-6">
+            <input type="button" value="PNR STATUS"class="btn btn-primary"style="width:300px;"></div><br>
+            <div class="col-6">
+            &nbsp;<input type="button" value="CHARTS/VACANCY"class="btn btn-primary"style="width:300px;"></div>
+            
+        
+       
+    
+       <table align="center" width="500" height="500"></br>
+        <tr><h1>
+            BOOK TICKET</h1>
+            </tr>
+            <tr>
+            <td>
+           <div class="mydiv">
+    <input type="text" placeholder="From" >          
+    <input type="date"><br><br>
+    <input type="text" placeholder="To" >    
+    <input type="text" placeholder="All Classes"> <br><br>
+    <input type="text" placeholder="GENERAL"><br><br>
+    <input type="checkbox">Person With Disability Concession</p> 
+    <input type="checkbox">flexible with date</p>
+    <input type="checkbox">Train with Availabale Berth</p>
+    <input type="checkbox">Railway Pass Concession</p>
+    <input type="button"
+     class="btn btn-primary"
+     value="SUBMIT">
+     </div>
+     </td>
+     <td>
+        <img src="train.jpg"
+        alt="picture"
+        height="150px"
+        width="150px">
+        </td>
+        </tr>
+     
+    </center>
+     <table align="center"width="350" height="200"><br>
+    <center> <h2>HOLIDAYS</h2>
+
+        <tr>
+             </td>
+             <td><img src="domestic air packages.jpg" height="200" width="350"><br>
+                <h4>Domestic air packages</h4>
+           <p>Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or
+             the leisure traveller wanting to relish the Blue
+              mountains of North East, Sand-dunes of Rajasthan, 
+             Hamlets of Ladakh, Wonders of Himalayas,
+             Serene lakes or Picturesque Islands, IRCTC has it all. Discover India through IRCTC!</p>
+             <a href="">more info-></a>
+             </td>
+            &nbsp;&nbsp; <td><img src="buddist circuit tourist train.jpg" height="200" width="350"><br>
+                <h4>Buddist circuit tourist train</h4>
+           <p> India, the country where Buddhism originated has rich memories of the Buddhist legacy.
+            As part of its drive towards austerity, the only kind of art & 
+            architecture that it supported were Stupas,
+             Chaityas & Viharas. 
+           Buddhist Train India will help you visit all these places up close for a truly religious experience. </p>
+             <a href="">more info-></a></td>
+             </td>
+        </tr>
+    </table>
+</div>
+</center>
+    </body>
+
+
+</html>
+
+
+ 
